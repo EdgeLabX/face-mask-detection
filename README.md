@@ -41,3 +41,40 @@ The system can:
 - Edge AI optimized deployment
 - Lightweight and scalable architecture
 
+
+## Performance Results
+
+| Model | mAP (%) |
+|--------|----------|
+| YOLOv5s | 86.43 |
+| YOLOv5l | 92.49 |
+
+### Performance Observation
+
+- YOLOv5l achieved higher detection accuracy compared to YOLOv5s.
+- NVIDIA Jetson Xavier NX delivered significantly better FPS performance than Jetson Nano for real-time inference.
+
+---
+
+## System Workflow
+
+1. Capture live video stream
+2. Perform object detection using YOLOv5
+3. Detect mask wearing condition
+4. Count detections
+5. Save results into CSV file with timestamp
+6. Display real-time output
+
+---
+
+## Technologies Used
+
+- Python
+- PyTorch
+- OpenCV
+- YOLOv5
+- CUDA
+- TensorRT
+- Edge AI
+
+
