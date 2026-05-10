@@ -77,4 +77,32 @@ The system can:
 - TensorRT
 - Edge AI
 
+## Applications
 
+- Smart Surveillance Systems
+- Public Safety Monitoring
+- Industrial Safety Compliance
+- Smart City Solutions
+- Healthcare Monitoring
+- Transportation Hubs
+
+---
+
+## Future Improvements
+
+- Multi-camera support
+- TensorRT optimization
+- Cloud dashboard integration
+- AI analytics reporting
+- Mobile deployment support
+
+---
+
+## Research Reference
+
+This project is based on the research paper:
+
+**"Real-time Face Mask Detection System on Edge using Deep Learning and Hardware Accelerators"**
+
+IEEE Publication:  
+https://ieeexplore.ieee.org/abstract/document/9689421
