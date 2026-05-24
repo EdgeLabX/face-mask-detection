@@ -17,6 +17,25 @@ The system can:
 - Run efficiently on embedded Edge AI hardware
 
 
+<p align="center">
+  <img src="images/system_workflow.png" alt="Face Mask Detection Workflow" width="1000"/>
+</p>
+
+
+### System Architecture
+
+The proposed workflow consists of the following stages:
+
+1. Data Collection
+2. Data Pre-processing
+3. Data Augmentation
+4. Data Annotation
+5. Model Training (YOLOv5)
+6. Hardware Accelerator Deployment
+7. Real-Time Inference
+8. CSV Logging and Analytics
+
+
 ## Models Used
 
 - YOLOv5s
@@ -55,18 +74,6 @@ The system can:
 - NVIDIA Jetson Xavier NX delivered significantly better FPS performance than Jetson Nano for real-time inference.
 
 ---
-
-## System Workflow
-
-1. Capture live video stream
-2. Perform object detection using YOLOv5
-3. Detect mask wearing condition
-4. Count detections
-5. Save results into CSV file with timestamp
-6. Display real-time output
-
----
-
 ## Technologies Used
 
 - Python
@@ -106,3 +113,4 @@ This project is based on the research paper:
 
 IEEE Publication:  
 https://ieeexplore.ieee.org/abstract/document/9689421
+
